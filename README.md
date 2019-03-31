@@ -1,4 +1,7 @@
 # GPI-GPIO-action  
+This is not yet an official plugin on Volumio.  
+But I hope it will be soon..  
+A lot of the code is taken from the official plugin GPIO buttons 0.8.1, by "tomatpasser"  
 Volumio plugin  
 The plugin can be used on the Volumio player, when installen on RaspberryPi.  
 The function is to be able to control the player, using real hardware push buttons.  
@@ -24,4 +27,7 @@ RIP pin -> button number - button pin number ( GPIO number )
 16 -> 7 pin 2 ( GPIO23 )  
 17 + 3,3 Volt from RPI. Used to pull up resistors.  
 18 -> 8 pin2 ( GPIO 24 )  
+I made two wires from all the pins on the RPI side, with GPIO. One wire to a button, and one wire to a pullup resistor  
+( I used a 8x3k3 DIL where pin 1 was connected to +3,3 volt, and the single resistors to the GPIOs )  
+
 
