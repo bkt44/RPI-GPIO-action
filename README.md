@@ -20,13 +20,13 @@ RIP pin -> button number - button pin number ( GPIO number )
 9 -> 1,2,3,4,5,6,7 pin 1 ( ground / 0Volt )  
 10 -> 3 pin 2 ( GPIO15 )  
 11 -> 4 pin 2 ( GPIO17 )    
-12 -> 5 pin 2 ( GPIO18 )  
-13 -> 6 pin 2 ( GPIO27 )  
+12 no connection, used by Pi-DigiAMP+ for I2S
+13 -> 5 pin 2 ( GPIO27 )  
 14 no connection  
 15 no connection is used as HW mute on Pi-DigiAMP+, but could also be used to any other function.  
-16 -> 7 pin 2 ( GPIO23 )  
+16 -> 6 pin 2 ( GPIO23 )  
 17 + 3,3 Volt from RPI. Used to pull up resistors.  
-18 -> 8 pin2 ( GPIO 24 )  
+18 -> 7 pin2 ( GPIO 24 )  
 I made two wires from all the pins on the RPI side, with GPIO. One wire to a button, and one wire to a pullup resistor  
 ( I used a 8x3k3 DIL where pin 1 was connected to +3,3 volt, and the single resistors to the GPIOs )  
 
